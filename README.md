@@ -1,6 +1,8 @@
 # Edgewater High School FolgerTech 2020 Prusa i3
 
-<img align="right" src="./img/est-250.png" />
+<a href="https://edgewaterhs.ocps.net/academics_and_curriculum/e_s_t_magnet/vision__mission__goals">
+<img align="right" src="./img/est-250.png" alt="Engineering, Science, and Technology"/>
+</a>
 
 This repository contains the firmware and documentation for Edgewater's student-made 3D printer. It was created with the understanding that future students may wish to repair, updgrade, update, or simply learn about the printer. It is also meant to serve as a resource for instructors, who can use it to teach about the printer, GitHub, or 3D printing in general. That said, this resource is not meant to be exhaustive; 3D printers require research and troubleshooting skills when new problems arise and that simply can't be reflected here. Listed below are some important notes to keep in mind as well as some helpful links.  
 
@@ -13,7 +15,7 @@ what to do after a print job (removing, evaluating, cleaning up prints, etc)
 ## Upgrades and maintenance  
 The printer can be considered finished, but as with any DIY project, there is still much room for improvement. RepRap printers in particular have whole communities dedicated to upgrading them. Simply by searching "FolgerTech 2020 upgrades," you can find numerous collections and forum posts dedicated to what others have done. Care must be taken however, in applying these upgrades yourself; the printer can easily be rendered inoperable if thoughtlessly disassembled. With every miniscule change in hardware can come a drastic change in print quality. It is therefore necessary to understand what goes into setting up and maintaining a 3D printer before you can upgrade one.
 
-Regular maintenance is also required by any 3D printer. As such, the [build and software setup guides](./documents) are included should anything need to be revisited. Keep in mind that these documents are dated and should be taken with a grain of salt. The hardware and electronics configuration may be the same but the software might have changed. Aside from tightening screws once in a while, the print bed may need to be leveled from time to time. In addition, the build plate may need to be cleaned of any accumulated dust or grease.
+Regular maintenance is also required by any 3D printer. As such, the [build](./doc/FolgerTech-2020-i3-Build-Manual-Rev-A.pdf) and [software](./doc/FolgerTech-2020-i3-Config-Guide-1-1.pdf) setup guides are included should anything need to be revisited. Keep in mind that these documents are dated and should be taken with a grain of salt. The hardware and electronics configuration may be the same but the software might have changed. Aside from tightening screws once in a while, the print bed may need to be leveled from time to time. In addition, the build plate may need to be cleaned of any accumulated dust or grease.
 
 ## Common troubleshooting issues  
 The nut that holds the right part of the x-carriage up on the threaded rod may sometimes fall out and cause the x-carriage to become tilted. Turn off the z-axis stepper motors (IMPORTANT!!! if this is not done there will be a spark and possibly electrical damage when completing the next steps). Hold the stepper motor still and turn the right nut until it is touching the x-carriage. Lift the x-carriage slightly and continue to turn the nut until it can be reseated in the plastic piece. Continue by turning the stepper motor until the x-carriage is level. The bed may have to be releveled after this. Since the x-carriage may not be level, it can be helpful to play around with the height of each end of the x-carriage (again, turn the stepper motors off and then move them manually to lower/raise either end).
