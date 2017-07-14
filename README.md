@@ -1,6 +1,6 @@
 # Edgewater High School FolgerTech 2020 Prusa i3
 
-<img align="right" src="./img/est-logo.jpg" />
+<img align="right" src="./img/est-250.png" />
 
 This repository contains the firmware and documentation for Edgewater's student-made 3D printer. It was created with the understanding that future students may wish to repair, updgrade, update, or simply learn about the printer. It is also meant to serve as a resource for instructors, who can use it to teach about the printer, GitHub, or 3D printing in general. That said, this resource is not meant to be exhaustive; 3D printers require research and troubleshooting skills when new problems arise and that simply can't be reflected here. Listed below are some important notes to keep in mind as well as some helpful links.  
 
